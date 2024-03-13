@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Pagamento</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div id="qr-code">
+          <img src="./img/qrcode.png" alt="QR Code" />
+
+
+          <img
+            id="confirmed-icon"
+            src="./img/check.svg"
+            alt="Ícone de pagamento confirmado"
+          />
+          
+        </div>
+
+        <aside>
+          <h1 id="title-text" style="color: #56A92F !important;">Pedido confirmado!</h1>
+          <p id="description">
+            Tudo certo com o seu pedido. O pagamento no pix foi confirmado pelo seu banco.
+          </p>
+
+          <div id="purchase-value">
+            <img src="./img/tag.svg" alt="Ícone de tag" />
+            <span>Compra de R$ <strong id="amount">287,90</strong></span>
+          </div>
+        </aside>
+      </header>
+
+      <footer>
+        <div id="expiration-time">
+          <img src="./img/currency.svg" alt="Ícone moeda" />
+          <span>Recebemos a confirmação do pagamento do seu pedido via pix!</span>
+        </div>
+
+
+        <div id="order">
+          <small>O número do seu pedido é</small>
+          <div>
+            <img src="./img/basket.svg" alt="Ícone do pedido" />
+            <span>527485022</span>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
